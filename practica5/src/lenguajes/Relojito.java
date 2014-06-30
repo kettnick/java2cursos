@@ -108,9 +108,9 @@ public class Relojito extends javax.swing.JFrame {
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(70, 70, 70)
+                .addGap(71, 71, 71)
                 .addComponent(etiqueta)
-                .addGap(70, 70, 70)
+                .addGap(69, 69, 69)
                 .addComponent(jLabel1)
                 .addGap(30, 30, 30)
                 .addComponent(cuenta, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
