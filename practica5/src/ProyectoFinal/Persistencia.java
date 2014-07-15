@@ -11,6 +11,7 @@ la logica nos va a ayudar a guardar un objeto de cuenta
  */
 
 import java.io.*;
+import java.util.ArrayList;
 
 public class Persistencia {
     
@@ -25,7 +26,8 @@ public class Persistencia {
              FileOutputStream fos= new FileOutputStream (f);//va a utilizar FileOutStream salir o ser creado el archivo a computadora
              //Creamos el objeto a serializar
              ObjectOutputStream oos= new ObjectOutputStream(fos);//el archivo ponerle contenido con el writeobject 
-             oos.writeObject(c);//crea el archivo con contenido
+             ArrayList<Cuenta> cuentas = new ArrayList<Cuenta>();
+             oos.writeObject(cuentas);//crea el archivo con contenido
              System.out.println("Guardado con exito!!!");
      
             
